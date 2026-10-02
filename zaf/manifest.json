@@ -1,0 +1,19 @@
+{
+  "name": "siit-zendesk",
+  "author": {
+    "name": "Alix Henriot",
+    "email": "alix.henriot@swile.co"
+  },
+  "defaultLocale": "en",
+  "private": true,
+  "location": {
+    "support": {
+      "ticket_sidebar": {
+        "url": "http://localhost:3000",
+        "flexible": true
+      }
+    }
+  },
+  "version": "1.0.0",
+  "frameworkVersion": "2.0"
+}
