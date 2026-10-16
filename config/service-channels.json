@@ -1,0 +1,6 @@
+{
+  "svc_it_support": { "channel_id": "C0C842KMHU4", "channel_name": "#it-support" },
+  "svc_hr": { "channel_id": "C0123456790", "channel_name": "#hr-requests" },
+  "svc_finance": { "channel_id": "C0123456791", "channel_name": "#finance-requests" },
+  "svc_facilities": { "channel_id": "C0123456792", "channel_name": "#facilities" }
+}

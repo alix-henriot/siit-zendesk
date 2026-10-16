@@ -1,14 +1,14 @@
-// lib/__tests__/zaf.test.ts
+// lib/zendesk/zaf.ts
 describe("getZafClient", () => {
   const fakeClient = { get: jest.fn() };
   const initMock = jest.fn(() => fakeClient);
-  let getZafClient: typeof import("../lib/zendesk/zaf").getZafClient;
+  let getZafClient: typeof import("../../../lib/zendesk/zaf").getZafClient;
 
   beforeEach(() => {
-    jest.resetModules();   // fresh module = fresh `client = null`
+    jest.resetModules(); // fresh module = fresh `client = null`
     initMock.mockClear();
     (window as any).ZAFClient = { init: initMock };
-    getZafClient = require("../lib/zendesk/zaf").getZafClient;
+    getZafClient = require("../../../lib/zendesk/zaf").getZafClient;
   });
 
   afterEach(() => {
