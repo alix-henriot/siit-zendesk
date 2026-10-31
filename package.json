@@ -13,7 +13,7 @@
   "dependencies": {
     "@slack/types": "^3.2.0",
     "@slack/web-api": "^8.2.0",
-    "next": "16.3.8",
+    "next": "16.4.1",
     "react": "19.2.8",
     "react-dom": "19.2.8",
     "zod": "^4.6.7"
